@@ -1,9 +1,9 @@
 # books/tests.py
-
 from django.test import TestCase
 from django.urls import reverse
 from .models import Recipe
 from django.utils import timezone
+
 
 class RecipeViewsTest(TestCase):
     def setUp(self):

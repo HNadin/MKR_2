@@ -1,5 +1,4 @@
 from django.shortcuts import render, get_object_or_404
-from django.utils import timezone
 from .models import Recipe
 def main(request):
     recipes = Recipe.objects.filter(created_at__year=2023)
